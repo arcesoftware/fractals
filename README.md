@@ -1,4 +1,4 @@
-##Fractals
+Fractals
 Fractals are a fascinating mathematical concept that have captivated the minds of mathematicians, scientists, and artists for decades. They are characterized by their infinite complexity and self-similarity, which can be observed at different levels of magnification.
 
 Types of Fractals
@@ -13,7 +13,7 @@ The Sierpinski triangle, which is created by repeatedly dividing a triangle into
 Generating Fractals
 Fractals are typically generated using mathematical equations or algorithms. The code on this Github page utilizes the HTML5 canvas element to render the fractals and the requestAnimationFrame() function to continuously draw new points on the canvas. It also includes a feature to plot the dots in the fractals depending on the distance from the origin, with a color gradient that ranges from green to red.
 
-##Applications of Fractals
+Applications of Fractals
 Fractals have a wide range of applications in various fields such as:
 
 Computer graphics
