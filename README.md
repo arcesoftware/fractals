@@ -32,7 +32,7 @@ To increase the performance of the code, various optimization techniques can be 
 - Spatial indexing
 
 ### Additional Visualization
-'''
+
 To enhance the user experience, additional visualization options such as 3D visualization of fractals, interactive ways to explore the fractals like zooming, panning, rotating etc can be added.
 
 ## Conclusion
