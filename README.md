@@ -1,6 +1,6 @@
 # Fractals
 
-<div class="npf_row"><figure class="tmblr-full" data-orig-height="772" data-orig-width="1292"><img src="https://64.media.tumblr.com/390fd02f36d81b70b07260bb610f0670/278ebf14bb3d8b41-85/s540x810/38251ddf07838b42316e9e37d56834f39e501ff2.png" data-orig-height="772" data-orig-width="1292"></figure></div>
+[![image](https://64.media.tumblr.com/390fd02f36d81b70b07260bb610f0670/278ebf14bb3d8b41-85/s540x810/38251ddf07838b42316e9e37d56834f39e501ff2.png)](https://arcesoftware.github.io/fractals/)
 
 Fractals are a fascinating mathematical concept that have captivated the minds of mathematicians, scientists, and artists for decades. They are characterized by their infinite complexity and self-similarity, which can be observed at different levels of magnification.
 
