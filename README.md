@@ -1,5 +1,7 @@
 # Fractals
-<div class="npf_row"><figure class="tmblr-full" data-orig-height="500" data-orig-width="500"><img src="https://64.media.tumblr.com/6404118d9079f0ba585e0efb20203130/278ebf14bb3d8b41-f4/s540x810/d9a0d54da1109b7408747b72f5aec324a7393869.png" data-orig-height="500" data-orig-width="500"></figure></div>
+
+<div class="npf_row"><figure class="tmblr-full" data-orig-height="386" data-orig-width="646"><img src="https://64.media.tumblr.com/390fd02f36d81b70b07260bb610f0670/278ebf14bb3d8b41-85/s540x810/38251ddf07838b42316e9e37d56834f39e501ff2.png" data-orig-height="386" data-orig-width="646"></figure></div>
+
 Fractals are a fascinating mathematical concept that have captivated the minds of mathematicians, scientists, and artists for decades. They are characterized by their infinite complexity and self-similarity, which can be observed at different levels of magnification.
 
 ## Types of Fractals
