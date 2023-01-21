@@ -1,5 +1,5 @@
 # Fractals
-(!)[Fractls](https://at.tumblr.com/facundoarco/707049563795718144/q3dfj78rqnx9)
+(!)[Fractls](<div class="npf_row"><figure class="tmblr-full" data-orig-height="500" data-orig-width="500"><img src="https://64.media.tumblr.com/6404118d9079f0ba585e0efb20203130/278ebf14bb3d8b41-f4/s540x810/d9a0d54da1109b7408747b72f5aec324a7393869.png" data-orig-height="500" data-orig-width="500"></figure></div>)
 Fractals are a fascinating mathematical concept that have captivated the minds of mathematicians, scientists, and artists for decades. They are characterized by their infinite complexity and self-similarity, which can be observed at different levels of magnification.
 
 ## Types of Fractals
