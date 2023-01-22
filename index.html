@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barnsley Fern Generator</title>
+  <title>Rich Coast</title>
 </head>
+
 <style>
-  .viewer {
+  #viewer {
     background-color: #070400;
     border: 1px solid rgb(0, 0, 0);
     background-color: black;
@@ -17,17 +18,22 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
   body {
     background-color: black;
   }
+
   h1 {
     text-align: center;
-    color:white;
+    color: white;
   }
-  .logo {
+  h1:hover {
+    transform: scale(1.2);
+  }
+  #logo {
     position: absolute;
     top: 10px;
-    left: 28px;
+    left: 40px;
     width: 10%;
     height: auto;
     transition: all 0.3s ease;
@@ -37,7 +43,7 @@
       width: 20%;
     }
   }
-  .logo:hover {
+  #logo:hover {
     transform: scale(1.2);
   }
 </style>
@@ -82,8 +88,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const f4 = (x, y) => [-0.15 * x + 0.28 * y, 0.26 * x + 0.24 * y + 0.44];  // Largest right-hand leaflet. Call 7% of time
 </script>
 <body>
+<h1><a href="https://en.wikipedia.org/wiki/Barnsley_fern" style="color:white; text-decoration: none;">Barnsley Fern</a></h1>
+<canvas id="viewer"></canvas>
 <a href="https://www.youtube.com/@richcoast">
-  <img src="https://64.media.tumblr.com/c299c9b6d5e9ac30bc7447e855b9676a/a7ea9376ebad9719-47/s540x810/aa6d4d5ecf0b7b16dda4cc319ba6de175d6501f2.pnj" class="logo">
+  <img id="logo" src="https://64.media.tumblr.com/821a6e9a40e6021c77288cd0fd1cfd39/278ebf14bb3d8b41-78/s540x810/9d00e6939f5aef9eb5e64a17f8fb56eef498876c.png">
 </a>
 </body>
 </html>
