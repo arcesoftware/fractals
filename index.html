@@ -24,22 +24,22 @@
     text-align: center;
     color:white;
   }
-
-#logo {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: -29px;
-    right: 100px;
-}
-@media only screen and (max-width: 600px) {
   #logo {
-    width: 150px;
-    height: 150px;
-    left: 100px;
-    top: 100px;
-  }
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 10%;
+    height: auto;
+    transition: all 0.3s ease;
 }
+  @media only screen and (max-width: 600px) {
+    .logo {
+      width: 20%;
+    }
+  }
+  #logo:hover {
+    transform: scale(1.2);
+  }
 
 
 </style>
@@ -86,10 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <body>
-  <h1><a href="https://en.wikipedia.org/wiki/Barnsley_fern" style="color:white; text-decoration: none;">Barnsley Fern</a></h1>
-  <canvas id="viewer"></canvas>
-  <a href="https://www.youtube.com/@richcoast">
-    <img id="logo" src="https://64.media.tumblr.com/821a6e9a40e6021c77288cd0fd1cfd39/278ebf14bb3d8b41-78/s540x810/9d00e6939f5aef9eb5e64a17f8fb56eef498876c.png">
+<a href="https://www.youtube.com/richcoast">
+  <img src="https://64.media.tumblr.com/c299c9b6d5e9ac30bc7447e855b9676a/a7ea9376ebad9719-47/s540x810/aa6d4d5ecf0b7b16dda4cc319ba6de175d6501f2.pnj" class="logo">
 </a>
 </body>
 
