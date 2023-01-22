@@ -43,15 +43,15 @@
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    const canvas = document.querySelector('#viewer');
+    const canvas = document.querySelector('.viewer');
     canvas.height = 700, canvas.width = 700;
     const ctx = canvas.getContext('2d');
-    document.querySelector("#viewer").style.backgroundColor = "black";
+    document.querySelector(".viewer").style.backgroundColor = "black";
     // const iteration = 99999;
     window.requestAnimationFrame(() => draw(0, 0));
   });
   const draw = (initX, initY) => {
-    const canvas = document.querySelector('#viewer');
+    const canvas = document.querySelector('.viewer');
     const ctx = canvas.getContext('2d');
 
     const rand = Math.random();
@@ -74,19 +74,16 @@ document.addEventListener('DOMContentLoaded', () => {
     window.requestAnimationFrame(() => draw(x, y));
 
   }
-
-
+  
   // Affine Transformation
   const f1 = (x, y) => [0, 0.16 * y];    // Stem. Call 1% of time
   const f2 = (x, y) => [0.85 * x + 0.04 * y, -0.04 * x + 0.85 * y + 1.6];  // Successively smaller leaflets. Call 85% of time
   const f3 = (x, y) => [0.2 * x - 0.26 * y, 0.23 * x + 0.22 * y + 1.6];   // Largest left-hand leaflet. Call 7% of time
   const f4 = (x, y) => [-0.15 * x + 0.28 * y, 0.26 * x + 0.24 * y + 0.44];  // Largest right-hand leaflet. Call 7% of time
 </script>
-
 <body>
-<a href="https://www.youtube.com/richcoast">
+<a href="https://www.youtube.com/@richcoast">
   <img src="https://64.media.tumblr.com/c299c9b6d5e9ac30bc7447e855b9676a/a7ea9376ebad9719-47/s540x810/aa6d4d5ecf0b7b16dda4cc319ba6de175d6501f2.pnj" class="logo">
 </a>
 </body>
-
 </html>
