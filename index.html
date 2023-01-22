@@ -43,15 +43,15 @@
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    const canvas = document.querySelector('.viewer');
+    const canvas = document.querySelector('#viewer');
     canvas.height = 700, canvas.width = 700;
     const ctx = canvas.getContext('2d');
-    document.querySelector(".viewer").style.backgroundColor = "black";
+    document.querySelector("#viewer").style.backgroundColor = "black";
     // const iteration = 99999;
     window.requestAnimationFrame(() => draw(0, 0));
   });
   const draw = (initX, initY) => {
-    const canvas = document.querySelector('.viewer');
+    const canvas = document.querySelector('#viewer');
     const ctx = canvas.getContext('2d');
 
     const rand = Math.random();
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.requestAnimationFrame(() => draw(x, y));
 
   }
-  
+
   // Affine Transformation
   const f1 = (x, y) => [0, 0.16 * y];    // Stem. Call 1% of time
   const f2 = (x, y) => [0.85 * x + 0.04 * y, -0.04 * x + 0.85 * y + 1.6];  // Successively smaller leaflets. Call 85% of time
